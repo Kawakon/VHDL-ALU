@@ -24,5 +24,8 @@ The operands A and B are provided to the ALU using the switches on the FPGA and 
 
 ## Testing
 
-A finite state machine controller is used to test the operation of the ALU. The VHDL of this controller can be found in this project. The controller progresses the ALU through each of the operations, as well as asserts the RESET and ENTER signals to control the behaviour of the ALU's registers. This enables the user to verify the result of the each of the ALU's operations.
+A finite state machine controller is used to test the operation of the ALU. The VHDL of this controller can be found in this project. The controller progresses the ALU through each of the operations, as well as asserts the RESET and ENTER signals to control the behaviour of the ALU's registers. This enables the user to verify the result of the each of the ALU's operations. The diagram below shows the state transitions for the controller:
+
+![image](https://user-images.githubusercontent.com/43174428/148961665-32219474-1cd0-482a-9152-f607ce04bab2.png)
+
 
