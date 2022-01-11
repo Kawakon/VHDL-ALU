@@ -53,9 +53,9 @@ begin
 			elsif Operation = "01" then
 				NS <= S4; --OR
 			elsif Operation = "10" then
-				NS <= S5; --XOR
+				NS <= S5; --DIV
 			elsif Operation = "11" then
-				NS <= S6; --NOT
+				NS <= S6; --MULT
 			else 
 				NS <= S2;
 			end if;	
