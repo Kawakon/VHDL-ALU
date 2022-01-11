@@ -22,3 +22,7 @@ The operands A and B are provided to the ALU using the switches on the FPGA and 
   <li>11 - Multiplication</li>
 </ul>
 
+## Testing
+
+A finite state machine controller is used to test the operation of the ALU. The VHDL of this controller can be found in this project. The controller progresses the ALU through each of the operations, as well as asserts the RESET and ENTER signals to control the behaviour of the ALU's registers. This enables the user to verify the result of the each of the ALU's operations.
+
