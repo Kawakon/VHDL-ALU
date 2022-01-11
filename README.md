@@ -16,9 +16,9 @@ The hardware for the ALU includes registers, a 4-1 multiplexer, seven-segment de
 The operands A and B are provided to the ALU using the switches on the FPGA and the ENABLE_1 signal. The addition operation simply adds the values of A and B. The logic OR operation performs a logical OR on A and B and returns the result. The division operation  divides the operand A by 2. This is done by shifting the value of A one bit to the right within a shift register. The multiplication operation multiplies the operand A by 2. This is performed by shifting the value of A one bit to the left within a shift register. To select a specific operation, a 2-bit value is provided to the multiplexer. 
 
 <ul>
-  <li>00 - Addition<li>
-  <li>01 - Logical OR<li>
-  <li>10 - Division<li>
-  <li>11 - Multiplication<li>
-<ul>
+  <li>00 - Addition</li>
+  <li>01 - Logical OR</li>
+  <li>10 - Division</li>
+  <li>11 - Multiplication</li>
+</ul>
 
